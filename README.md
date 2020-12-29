@@ -1,5 +1,5 @@
 # emilcam-client-admin
-Projeto desenvolvido em Javascript com a bilbioteca React, consistindo numa interface com o usuário administrador da plataforma de gerenciamento de câmeras de videomonitoramento EmilCam. Consome a API emilcam-api.
+Projeto desenvolvido em Javascript com a biblioteca React, consistindo numa interface com o usuário administrador da plataforma de gerenciamento de câmeras de videomonitoramento EmilCam. Consome a API emilcam-api.
 
 ### Introdução
 
@@ -7,7 +7,7 @@ Estas instruções lhe permitirão obter uma cópia do projeto e executá-lo na 
 
 ## Pré-requisitos
 
-Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
+Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g` e `npm install yarn -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
 
 Após a instalação das ferramentas mencionadas, devem ser usados os arquivos para emular o banco de dados, seguindo os modelos contidos na pasta raiz `db_*.json` e a [documentação](https://github.com/typicode/json-server/blob/master/README.md) do Json-Server (exemplo no script `rodar_db` na raiz do projeto).
 

@@ -1,0 +1,15 @@
+{
+	"cameras":[
+		{
+			"id": 1,
+			"id_empresa": 1,
+			"iu": "3245h345h",
+			"rtsp": "235345g32g3",
+			"nivel_permitido": 3,
+			"resumo_diario": true,
+			"sensibilidade": 1,
+			"cameras_publicas": true,
+			"nivel_permitido": 3
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"clientes":[
+		{
+			"id": 1,
+			"id_empresa": 1,
+			"nome": "Moacir",
+			"senha": "12345",
+			"cpf": "109.306.920-12",
+			"email": "teste@teste.com",
+			"telefone": "23847923",
+			"resumo_diario": true,
+			"sensibilidade": 1,
+			"cameras_publicas": true,
+			"nivel_permitido": 3
+		}
+	],
+	"grupos":[
+		{
+			"id": 1,
+			"ids_clientes": [1, 3],
+			"ids_cameras": [1, 6],
+			"titulo": "Teste",
+			"obs": "Teste",
+			"nivel_permitido": 3
+		}
+	]
+}

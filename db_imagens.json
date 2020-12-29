@@ -1,0 +1,16 @@
+{
+	"imagens":[
+		{
+			"id": 1,
+			"imagem": "blob...",
+			"nivel_permitido": 1
+		}
+	],
+	"videos":[
+		{
+			"id": 1,
+			"video": "blob...",
+			"nivel_permitido": 1
+		}
+	]
+}

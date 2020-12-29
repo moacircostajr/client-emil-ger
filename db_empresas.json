@@ -1,0 +1,26 @@
+{
+  "empresas": [
+    {
+      "id": 1,
+      "codigo":"20380a9s8d09asjlk2jl4k2",
+      "nome_fantasia": "Moacir",
+      "cnpj": "28.850.408/0001-71",
+      "razao_social": "Teste teste",
+      "cep": "00000-000",
+      "endereco": "Rua Teste, 63",
+      "complemento": "Teste complemento",
+      "bairro": "Teste",
+      "cidade": "Teste",
+      "estado": "CE",
+      "pais": "Brasil",
+      "fuso_horario": "Teste",
+      "lat": "3.459604S",
+      "long": "32.4985665L",
+      "telefones": "238749238",
+      "email": "teste@teste.com.br",
+      "presidente": "Moacir",
+      "cpf_presidente": "109.306.920-12",
+      "email_presidente": "moacir@teste.com"
+    },
+  ]
+}

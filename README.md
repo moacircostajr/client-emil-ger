@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# emilcam-client-admin
+Projeto desenvolvido em Javascript com a bilbioteca React, consistindo numa interface com o usuário administrador da plataforma de gerenciamento de câmeras de videomonitoramento EmilCam. Consome a API emilcam-api.
 
-## Available Scripts
+## Inicializando
 
-In the project directory, you can run:
+Estas instruções lhe permitirão obter uma cópia do projeto e executá-lo na sua máquina local para desenvolvimento e testes. Veja as notas de compilação para saber como compilar o projeto.
 
-### `yarn start`
+### Pré-requisitos
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Ubuntu).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Após a instalação das ferramentas mencionadas, devem ser criados os arquivos para emular o banco de dados, seguindo os modelos contidos na pasta `/src/model/` e a [ajuda](https://github.com/typicode/json-server/blob/master/README.md) do Json-Server.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalação
 
-### `yarn build`
+Após o download deste projeto, dentro de sua pasta principal deve ser executado o comando `npm install`, para que seja feito o download e a instalação das dependências do projeto.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Após a instalação das dependências, basta executar os passos informados nas notas a seguir.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Servidor de desenvolvimento
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Execute `ng serve --open` para iniciar o servidor de desenvolvimento. Acesse o endereço web `http://localhost:4200/`. A aplicação será atualizada automaticamente caso seja alterado o código fonte.
 
-### `yarn eject`
+Para parar a execução do servidor de desenvolvimento, pressione `Ctrl + C`, no terminal de comando.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Ferramentas de desenvolvimento
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Com o servidor de desenvolvimento parado, execute `ng generate component component-name` para criar um novo componente. Você também pode usar `ng generate appShell|application|class|directive|enum|guard|interface|library|module|pipe|service|serviceWorker|universal`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Compilação
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Execute `ng build` para compilar o projeto. O projeto compilado poderá ser encontrado no diretório dist/. Use --prod para uma compilação de produção.
 
-## Learn More
+## Ajuda
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para obter mais informações sobre o Angular CLI, use `ng --help` ou acesse [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autor
 
-### Code Splitting
+* **Moacir Costa** - *Desenvolvedor inicial*
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Licença
 
-### Analyzing the Bundle Size
+Este projeto está licenciado sob os termos da GNU General Public License v3.0 - veja [LICENSE.md](https://github.com/moacircostajr/cjm-client/blob/master/LICENSE) para conhecer os detalhes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Agradecimentos
 
-### Making a Progressive Web App
+* A Jesus Cristo, que me deu coragem e força pra chegar até aqui;
+* Ao meu irmão Claudio Costa, que me ensinou os caminhos que eu deveria trilhar para chegar neste nível de conhecimento em programação;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Status do projeto
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* É necessário fazer a validação dos formulários de inserção de informações;
+* A ferramenta de testes e sincronização TRAVIS está desconfigurada.
